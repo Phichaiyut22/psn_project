@@ -1,0 +1,39 @@
+plugins {
+    id "com.android.application"
+    id 'com.google.gms.google-services'  // FlutterFire Configuration
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"  // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+}
+
+android {
+    namespace = "com.example.budget_tracker_application_2"
+    compileSdkVersion 34  // กำหนดค่า compileSdkVersion โดยตรง
+
+    java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+        applicationId = "com.example.budget_tracker_application_2"
+        minSdkVersion 23  // ตั้งค่า minSdkVersion เป็น 23
+        targetSdkVersion 34  // กำหนดค่า targetSdkVersion โดยตรง
+        
+        versionCode = 1  // กำหนดค่า versionCode โดยตรง
+        versionName = "1.0.0"  // กำหนดค่า versionName โดยตรง
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}

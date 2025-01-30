@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "988715507240",
+    "project_id": "psnproject-sau",
+    "storage_bucket": "psnproject-sau.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988715507240:android:073b02bb31eb85d46c5f1d",
+        "android_client_info": {
+          "package_name": "com.example.budget_tracker_application_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJLlXhK13wrCipg3J1OhoUn5DpZTXneU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
