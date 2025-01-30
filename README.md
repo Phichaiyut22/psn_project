@@ -1,16 +1,52 @@
-# budget_tracker_application_2
 
-A new Flutter project.
+PSN_Budget_Management เป็นแอปพลิเคชันสำหรับจัดการรายรับรายจ่ายของผู้ใช้งาน โดยมีฟีเจอร์หลักดังนี้:
 
-## Getting Started
+ระบบผู้ใช้งาน
 
-This project is a starting point for a Flutter application.
+ลงทะเบียน (Sign Up)
+เข้าสู่ระบบ (Login)
+ลืมรหัสผ่าน (Forget Password)
+ออกจากระบบ (Logout)
+การยืนยันตัวตน (Authentication)
 
-A few resources to get you started if this is your first Flutter project:
+ใช้ Firebase Authentication เพื่อยืนยันสิทธิ์การเข้าถึงของผู้ใช้งาน
+การจัดการข้อมูลผู้ใช้งาน
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+บันทึกข้อมูลรายรับและรายจ่ายใน Firebase Realtime Database
+เพิ่มและอัปเดตโปรไฟล์ผู้ใช้งาน รวมถึงอัปโหลดรูปภาพโปรไฟล์
+การแสดงผลข้อมูล
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+แสดงรายรับรายจ่ายแบบรายเดือน
+ดึงข้อมูลหุ้นผ่าน API และแสดงข้อมูลหุ้นยอดนิยม 10 อันดับ
+การจัดการข้อมูลค่าใช้จ่าย
+
+ผู้ใช้งานสามารถลบรายการค่าใช้จ่ายที่ไม่ต้องการได้
+มีระบบยืนยันความต้องการก่อนลบข้อมูล เพื่อลดความผิดพลาด
+
+
+PSN_Budget_Management is a user-friendly application designed to help manage income and expenses efficiently. Key features include:
+
+User Management
+
+Sign Up
+Login
+Forget Password
+Logout
+Authentication
+
+Utilizes Firebase Authentication to secure user access.
+Data Management
+
+Stores income and expense data in Firebase Realtime Database.
+Allows users to upload and update profile images.
+Data Visualization
+
+Displays income and expense summaries on a monthly basis.
+Integrates with a stock API to display the top 10 trending stocks.
+Expense Management
+
+Users can delete unwanted expense records.
+Includes a confirmation system to prevent accidental deletions.
+
+![image](https://github.com/user-attachments/assets/54f4a62a-efdb-4c6e-9e59-3a83c593d781)
+
