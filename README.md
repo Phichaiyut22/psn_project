@@ -1,5 +1,6 @@
 <h1 align="center">💸 Budget Tracker Application 2 💸</h1>
 <p align="center">
+  <img width="379" height="835" alt="image" src="https://github.com/user-attachments/assets/fde7e3e8-44a7-44e1-a6f5-10352ad39362" />
   
 </p>
 <p align="center">
