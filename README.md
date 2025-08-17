@@ -1,6 +1,6 @@
 <h1 align="center">💸 Budget Tracker Application 2 💸</h1>
 <p align="center">
-  <img src="assets/icons/app_icon.png" width="120" alt="App Icon" />
+  
 </p>
 <p align="center">
   <b>แอปพลิเคชันจัดการรายรับรายจ่ายส่วนบุคคล</b><br>
