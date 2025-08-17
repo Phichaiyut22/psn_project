@@ -1,4 +1,4 @@
-<h1 align="center">💸 Budget Tracker Application 2 💸</h1>
+<h1 align="center">💸 Budget Tracker Application (PSN) 💸</h1>
 <p align="center">
   <img width="379" height="835" alt="image" src="https://github.com/user-attachments/assets/fde7e3e8-44a7-44e1-a6f5-10352ad39362" />
   <img width="369" height="828" alt="image" src="https://github.com/user-attachments/assets/de8c3731-b189-405c-bed7-e70ea05ac3bf" />
@@ -9,14 +9,6 @@
   <img width="372" height="797" alt="image" src="https://github.com/user-attachments/assets/4905a61d-c42a-4bd3-8fdd-a1cadc96f9df" />
   <img width="370" height="783" alt="image" src="https://github.com/user-attachments/assets/a65689bf-1fc5-4124-af07-678a429409c5" />
 
-
-  
-
-
-
-
-
-  
 </p>
 <p align="center">
   <b>แอปพลิเคชันจัดการรายรับรายจ่ายส่วนบุคคล</b><br>
